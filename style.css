@@ -1,0 +1,215 @@
+/*DISABLE the Horizontal Scroll*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*Body*/
+body {
+  display: flex;
+  background-attachment: fixed;
+  background-color: #222;
+  background-image:url('https://s31.postimg.cc/6sq10xirv/skies_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  flex-direction: column;  
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  min-width: 320px;
+  text-align: center;
+}
+
+#city {
+  font-size: 4em;
+  padding:12px;
+  text-shadow: 0px 0px 0px #333;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  #city {
+    margin-top: 3%;/*for top of page*/
+  }
+}
+#temperature {
+  font-size: 3em;
+  text-shadow: 1px 1px 1px #333
+  margin-top: 1px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+#results row {
+  margin-bottom: 1.5em;
+  
+}
+.row {
+  margin: auto;
+    padding-bottom: 15px;
+    padding-left: 420px;/*To align boxes condition and wind-speed*/
+}
+
+.container
+#condition,
+#wind-speed {
+  background-color: clear;
+  background-color: rgba(147, 175, 196, .4);
+  display: block;
+    float: center;
+  color: white;
+  border:1px opacity #fff;
+  border-radius: 10%;
+  box-shadow: .2em .2em .2em #110;
+  display: inline-block;
+  font-size: 1.3em;
+  margin: 1em;
+  min-height: 6em;
+  min-width: 10em;
+  padding-top: 1em;
+  text-shadow: 1px 1px 1px #333333;
+  align-text:center; 
+}
+
+
+
+/*button to toggle Farenheit and Celsius*/
+
+.btn {
+    background-color: #4EB1BA;
+    font-weight: bold;
+    color: #222930;
+    position: relative;
+    text-align: center;
+    box-shadow: #3B3B3B 3px 5px 5px;
+}
+
+.btn:hover {
+    background-color: #E9E9E9;
+    color: #222930;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.center {
+    margin: auto;
+}
+
+
+
+/*End button to toggle F and C */
+
+.wi {
+  font-size: 4em;
+}
+
+.description {
+  line-height: 2em;
+}
+
+.input-group{
+  color: #222;
+  margin: 2em auto 0 auto;
+  max-width: 20em;
+  padding: 0 0em;
+  
+}
+
+#search-field {
+  font-size: 16px;
+  margin: 1em auto 0 auto;
+  color: #222;
+  padding: 1 0em;
+}
+
+
+/* auto-complete menu */
+.ui-menu {
+  background-color: white;
+  list-style: none;
+  max-width: 20em;
+  outline: none;
+  padding: 0;
+  text-align: left;
+  position: absolute!important;
+}
+
+.ui-menu .ui-menu-item {
+  color: #222;
+  border-bottom: 2px solid #428bca;
+  cursor: pointer;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 3px 1em 3px .4em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ui-state-focus,
+.ui-state-active {
+  background-color: #ddd;
+  margin: -1px;
+}
+
+.ui-helper-hidden-accessible { 
+  clip: rect(1px,1px,1px,1px);
+  position: absolute;
+}
+/* Footer Section */
+/* footer formatting */
+.footer {
+  background-color: #222;
+  border-top: 3px outset #444;
+  font-size: 12px;
+  height: 65px;
+  font-weight: normal;
+  margin-top: 15em;
+  min-width: 350px;
+  padding: 1em 0em 0 1em;
+  width: 100%;
+}
+
+.footer-logos {
+  font-size: 14px;
+  margin-top: -.5em;
+}
+
+.footer-logos a {
+  text-decoration: none;
+}
+
+.footer-logos i {
+  border: 1px solid #646464;
+  border: 1px solid rgba(100, 100, 100, .3);
+  border-radius: 25%;
+  color: #777777;
+  margin: 0 0 1em 1em;
+  padding-top: .25em;
+  text-align: center;
+  vertical-align: -1.5em;
+}
+
+.footer-logos .genericon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.attribution-logo {
+  vertical-align: text-bottom;
+  width: 90px;
+}
+
+#footer 
+.container-fluid {
+  max-width: 768px;
+  text-align: center;
+}
+
+/*End Section Footer*/
+
+
