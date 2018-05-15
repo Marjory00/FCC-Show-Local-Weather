@@ -1,8 +1,8 @@
 $(document).ready(function () {
   getWeather();
   // add a spinner icon to areas where data will be populated
-  $('#condition').html('<i class="fa fa-spinner fa-pulse fa-3x"></i>');
-  $('#wind-speed').html('<i class="fa fa-spinner fa-pulse fa-3x"></i>');
+  $('#condition').html('<i class="fa fa-spinner fa-pulse fa-3x"><\i>');
+  $('#wind-speed').html('<i class="fa fa-spinner fa-pulse fa-3x"><\i>');
 });
 
 // Array for autocomplete cities and their weather stations
