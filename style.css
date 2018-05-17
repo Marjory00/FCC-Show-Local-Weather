@@ -7,7 +7,6 @@ html, body {
 body {
   display: flex;
   background-attachment: fixed;
-  background-color: #222;
   background-image:url('https://s31.postimg.cc/6sq10xirv/skies_2.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -15,13 +14,12 @@ body {
   color: white;
   flex-direction: column;  
   font-family: 'Arial', sans-serif;
-  min-height: 100vh;
-  min-width: 320px;
   text-align: center;
 }
 
 #city {
-  font-size: 4em;
+  font-size: 50px;
+  margin-left: 0px;
   padding:12px;
   text-shadow: 0px 0px 0px #333;
   text-align: center;
@@ -37,6 +35,7 @@ body {
   font-size: 3em;
   text-shadow: 1px 1px 1px #333;
   margin-top: 1px;
+  margin-left: 0px;
   padding: 5px;
   text-align: center;
   color: white;
@@ -44,12 +43,13 @@ body {
 
 #results row {
   margin-bottom: 1.5em;
+  margin-left: 500px;
   
 }
-.row {
+.column-2 {
   margin: auto;
     padding-bottom: 15px;
-    padding-left: 420px;/*To align boxes condition and wind-speed*/
+    padding-left: 4px;/*To align boxes condition and wind-speed*/
 }
 
 .container
@@ -65,7 +65,7 @@ body {
   box-shadow: .2em .2em .2em #110;
   display: inline-block;
   font-size: 1.3em;
-  margin: 1em;
+  margin: 0.5em;
   min-height: 6em;
   min-width: 10em;
   padding-top: 1em;
@@ -79,6 +79,7 @@ body {
     background-color: #4EB1BA;
     font-weight: bold;
     color: #222930;
+    margin: 0px;
     position: relative;
     text-align: center;
     box-shadow: #3B3B3B 3px 5px 5px;
@@ -159,22 +160,24 @@ body {
 /* Footer Section */
 /* footer formatting */
 .footer {
-  background-color: #222;
-  border-top: 3px outset #444;
+  background-color: none;
+  border-top: 4px outset #444;
   font-size: 12px;
-  height: 76px;
-  font-weight: normal;
-  margin-top: 15em;
+  color: black;
+  height: 88px;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: 9px;
+  margin-right: 9px;
   min-width: 100px;
-  padding: 1em 0em 0 5em;
+  padding: 1em 0em 0 0em;
   width: 100%;
-  display: flex;
+ 
 }
 
-}
 .footer-logos {
   font-size: 14px;
-  margin-top: -.5em;
+  margin-top: 0em;
 }
 
 .footer-logos a {
@@ -185,9 +188,8 @@ body {
   border: 1px solid #646464;
   border: 1px solid rgba(100, 100, 100, .3);
   border-radius: 25%;
-  color: #777777;
   margin: 0 0 1em 5em;
-  padding-top: .25em;
+  padding-top: 1em;
   text-align: center;
   vertical-align: -1.5em;
   display: flex;
@@ -200,16 +202,23 @@ body {
 .attribution-logo {
   vertical-align: text-bottom;
   width: 100px;
-  display: flex;
-  margin-right: 55%;
-  margin-left: -85%;
-  margin-top: 15px;
+  margin-right: 60%;
+  margin-left: 50%;
+  margin-top: -10px;
 }
-#Footer {
-  max-width: 100px;
-  display: flex;
-  text-align: center;
+  
+     /* Set black background color, white text and some padding */
+  
 }
 /*End Section Footer*/
 
-
+.Footer {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:60px;  
+    margin:0; 
+    padding:0;
+    max-width: 100px;
+    text-align: center;
+}
