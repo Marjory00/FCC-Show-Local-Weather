@@ -11,7 +11,7 @@ var cities = [];
 // Get the weather from the Weather Underground API
 function getWeather(weatherStation) {
   
-  var callback = '7aea9edaacb5d4a8/conditions',
+  var callback = '/conditions',
       apiBaseUrl = 'https://api.wunderground.com/api/' + callback,
       backgroundImgUrl = 'https://s31.postimg.cc/6sq10xirv/skies_2.jpg';
 
