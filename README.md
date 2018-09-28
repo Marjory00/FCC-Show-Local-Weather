@@ -2,7 +2,7 @@
 freeCodeCamp Project Show Local Weather App
 
 ## Link
-https://codepen.io/Marjory00/full/xjZerm/
+
 
 ## Project Title
 Show the Local Weather
