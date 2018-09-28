@@ -15,6 +15,7 @@ body {
   flex-direction: column;  
   font-family: 'Arial', sans-serif;
   text-align: center;
+  
 }
 
 #city {
@@ -125,7 +126,9 @@ body {
   margin-bottom: 5px;
 }
 
-
+#search-button {
+  bottom:20px;
+}
 /* auto-complete menu */
 .ui-menu {
   background-color: white;
@@ -210,7 +213,7 @@ body {
   
      /* Set black background color, white text and some padding */  
 
-.Footer {
+#footer {
     position:absolute;
     bottom:0px;
     width:100%;
@@ -219,5 +222,12 @@ body {
     padding:0;
     max-width: 100px;
     text-align: center;
+    margin-top:20px;
+}
+
+h6 {
+  text-align:center;
+ 
+  
 }
 /*End Section Footer*/
